@@ -141,7 +141,7 @@ bot.on('message', async (event) => {
                   {
                     type: 'image',
                     url: 'https://drive.google.com/file/d/1dKb1h3gx06sUqe3xRokOd0WKRCABqlgF/view',
-                    size: 'full',
+                    size: 'xs',
                     aspectMode: 'cover',
                     aspectRatio: '150:196',
                     gravity: 'center',
@@ -154,7 +154,7 @@ bot.on('message', async (event) => {
                       {
                         type: 'image',
                         url: 'https://drive.google.com/file/d/1eoXiNcDmCofgWcjwW6KpTf25Rh782AXr/view',
-                        size: 'full',
+                        size: 'xs',
                         aspectMode: 'cover',
                         aspectRatio: '150:196',
                         gravity: 'center'

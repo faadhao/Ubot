@@ -128,9 +128,108 @@ bot.on('message', async (event) => {
     } else if (event.message.type === 'text') {
       const text = event.message.text
       if (text === '!discription') {
-        event.reply(
-          's'
-        )
+        reply = {
+          type: 'bubble',
+          header: {
+            type: 'box',
+            layout: 'vertical',
+            contents: [
+              {
+                type: 'box',
+                layout: 'horizontal',
+                contents: [
+                  {
+                    type: 'image',
+                    url: 'https://drive.google.com/file/d/1rlk2Crsat5xo_iCZpBM0Ul9SfkOIJAwd/view?usp=sharing',
+                    size: 'full',
+                    aspectMode: 'cover',
+                    aspectRatio: '150:196',
+                    gravity: 'center',
+                    flex: 1
+                  },
+                  {
+                    type: 'box',
+                    layout: 'vertical',
+                    contents: [
+                      {
+                        type: 'image',
+                        url: 'https://drive.google.com/file/d/1eoXiNcDmCofgWcjwW6KpTf25Rh782AXr/view?usp=sharing',
+                        size: 'full',
+                        aspectMode: 'cover',
+                        aspectRatio: '150:196',
+                        gravity: 'center'
+                      }
+                    ],
+                    flex: 1
+                  }
+                ]
+              }
+            ],
+            paddingAll: '0px'
+          },
+          body: {
+            type: 'box',
+            layout: 'vertical',
+            contents: [
+              {
+                type: 'box',
+                layout: 'vertical',
+                contents: [
+                  {
+                    type: 'box',
+                    layout: 'vertical',
+                    contents: [
+                      {
+                        type: 'text',
+                        contents: [],
+                        size: 'xl',
+                        wrap: true,
+                        text: 'Cony Residence',
+                        color: '#ffffff',
+                        weight: 'bold'
+                      },
+                      {
+                        type: 'text',
+                        text: '3 Bedrooms, ¥35,000',
+                        color: '#ffffffcc',
+                        size: 'sm'
+                      }
+                    ],
+                    spacing: 'sm'
+                  },
+                  {
+                    type: 'box',
+                    layout: 'vertical',
+                    contents: [
+                      {
+                        type: 'box',
+                        layout: 'vertical',
+                        contents: [
+                          {
+                            type: 'text',
+                            contents: [],
+                            size: 'sm',
+                            wrap: true,
+                            margin: 'lg',
+                            color: '#ffffffde',
+                            text: 'Private Pool, Delivery box, Floor heating, Private Cinema'
+                          }
+                        ]
+                      }
+                    ],
+                    paddingAll: '13px',
+                    backgroundColor: '#ffffff1A',
+                    cornerRadius: '2px',
+                    margin: 'xl'
+                  }
+                ]
+              }
+            ],
+            paddingAll: '20px',
+            backgroundColor: '#464F69'
+          }
+        }
+        event.reply(reply)
       } else if (text === '!location') {
         reply = {
           type: 'text',

@@ -140,7 +140,7 @@ bot.on('message', async (event) => {
                 contents: [
                   {
                     type: 'image',
-                    url: 'https://drive.google.com/file/d/1rlk2Crsat5xo_iCZpBM0Ul9SfkOIJAwd/view?usp=sharing',
+                    url: 'https://drive.google.com/file/d/1dKb1h3gx06sUqe3xRokOd0WKRCABqlgF/view',
                     size: 'full',
                     aspectMode: 'cover',
                     aspectRatio: '150:196',
@@ -153,7 +153,7 @@ bot.on('message', async (event) => {
                     contents: [
                       {
                         type: 'image',
-                        url: 'https://drive.google.com/file/d/1eoXiNcDmCofgWcjwW6KpTf25Rh782AXr/view?usp=sharing',
+                        url: 'https://drive.google.com/file/d/1eoXiNcDmCofgWcjwW6KpTf25Rh782AXr/view',
                         size: 'full',
                         aspectMode: 'cover',
                         aspectRatio: '150:196',
